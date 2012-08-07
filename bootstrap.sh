@@ -1,9 +1,8 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
-git remote add upstream https://github.com/mathiasbynens/dotfiles.git
-
-## Fetch and rebase upstream
+## Reminder : Add remote upstream branch, fetch and rebase upstream
+#git remote add upstream https://github.com/mathiasbynens/dotfiles.git
 #git fetch upstream
 #git rebase upstream/master 
 
