@@ -1,3 +1,5 @@
-My dotfiles forked from Mathias Bynens dotfiles.
+# My dotfiles
+
+Forked from Mathias Bynens _legendary_ dotfiles for OSX.
 
 Work in progress ...
