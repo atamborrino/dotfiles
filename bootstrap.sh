@@ -1,5 +1,12 @@
 #!/bin/bash
 cd "$(dirname "$0")"
+
+git remote add upstream https://github.com/mathiasbynens/dotfiles.git
+
+## Fetch and rebase upstream
+#git fetch upstream
+#git rebase upstream/master 
+
 git pull
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
