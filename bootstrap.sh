@@ -1,11 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-
-## Reminder : Add remote upstream branch, fetch and rebase upstream
-#git remote add upstream https://github.com/mathiasbynens/dotfiles.git
-#git fetch upstream
-#git rebase upstream/master 
-
 git pull
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
@@ -21,3 +15,8 @@ else
 fi
 unset doIt
 source ~/.bash_profile
+
+## Reminder : Add remote upstream branch, fetch and rebase upstream
+#git remote add upstream https://github.com/mathiasbynens/dotfiles.git
+#git fetch upstream
+#git rebase upstream/master 
