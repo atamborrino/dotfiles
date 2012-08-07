@@ -19,4 +19,6 @@ source ~/.bash_profile
 ## Reminder : Add remote upstream branch, fetch and rebase upstream
 #git remote add upstream https://github.com/mathiasbynens/dotfiles.git
 #git fetch upstream
+#git log master..upstream/master
+#git diff master upstream/master
 #git rebase upstream/master 
