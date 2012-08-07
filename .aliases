@@ -1,20 +1,20 @@
-# Easier navigation: .., ..., ...., ....., ~ and -
+# Easier navigation: .., ..., ...., ....., ~
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias cd="cd ~"
+alias h="cd ~"
 
 # Shortcuts
 alias d="cd ~/Dropbox"
 alias p="cd ~/Projects"
 alias g="git"
-alias h="history"
+alias hi="history"
 alias j="jobs"
 alias v="vim"
-alias m="mate ."
+alias m="mate"
 alias o="open"
-alias oo="open ."
+#alias oo="open ."
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -112,7 +112,7 @@ alias spoton="sudo mdutil -a -i on"
 alias plistbuddy="/usr/libexec/PlistBuddy"
 
 # Launch iOS Simulator
-alias ios="open -a /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app"
+#alias ios="open -a /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app"
 
 # One of @janmoesen’s ProTip™s
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
