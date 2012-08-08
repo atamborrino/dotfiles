@@ -1,0 +1,10 @@
+# PATH additions
+export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
+
+# Git credentials
+GIT_AUTHOR_NAME="Alexandre Tamborrino"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="tamborrino.alexandre@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
