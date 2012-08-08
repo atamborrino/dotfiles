@@ -24,12 +24,5 @@ source ~/.bash_profile
 #git rebase upstream/master 
 
 
-### TODO : To automatize :
-
-## Sort Folder Before File
-#sudo vi /System/Library/CoreServices/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings
-#(change English.lproj to your language)
-#CHANGE "Folder" = "Folder"; TO "Folder" = " Folder";
-#killall Finder
-
-##  
+## TODO : To automatize :
+#Sort Folder Before File
