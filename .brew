@@ -20,7 +20,11 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
 # Install everything else
-brew install git
+brew install git 
+brew install bash-completion
+
+# Brew own completion script
+ln -s "/usr/local/Library/Contributions/brew_bash_completion.sh" "/usr/local/etc/bash_completion.d"
 
 # Remove outdated versions from the cellar
 brew cleanup
