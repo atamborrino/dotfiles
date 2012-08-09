@@ -1,5 +1,8 @@
 # PATH additions
-export PATH="~/bin:/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
+export PATH="~/bin:$PATH"
+if [ -d "/usr/local/Cellar/coreutils/8.17/libexec/gnubin" ]; then
+	export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
+fi
 
 # Git credentials
 GIT_AUTHOR_NAME="Alexandre Tamborrino"
