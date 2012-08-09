@@ -8,6 +8,7 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.osx` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
@@ -221,9 +222,9 @@ defaults write com.apple.dock showhidden -bool true
 find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
 
 # Add a spacer to the left side of the Dock (where the applications are)
-defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+#defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 # Add a spacer to the right side of the Dock (where the Trash is)
-defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
+#defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
 
 ###############################################################################
 # Safari & WebKit                                                             #
@@ -323,6 +324,20 @@ defaults write com.apple.Terminal "Startup Window Settings" -string "Mathias"
 
 # Disable local Time Machine backups
 #hash tmutil &> /dev/null && sudo tmutil disablelocal
+
+###############################################################################
+# Miscellaneous non-brew installtion                                          #
+###############################################################################
+
+if [ ! -d "~/bin" ]; then
+	mkdir ~/bin
+fi
+
+# SublimeText 2 bash command
+if [ -d "/Applications/Sublime Text 2.app/" ]; then
+	ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+fi
+
 
 
 ###############################################################################
