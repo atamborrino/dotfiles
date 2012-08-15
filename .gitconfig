@@ -58,6 +58,10 @@
 	remote = origin
 	merge = refs/heads/master
 
+[user]
+	name = Alexandre Tamborrino
+	email = tamborrino.alexandre@gmail.com
+
 # URL shorthands
 [url "git@github.com:"]
 	insteadOf = "gh:"
