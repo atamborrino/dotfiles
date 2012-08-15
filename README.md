@@ -5,9 +5,8 @@ Forked from Mathias Bynens _legendary_ dotfiles for OSX.
 Install brew, git via brew and Sublime Text 2 before.
 ```bash
 cd ~
-git clone <dotfiles git repo> && cd dotfiles
-./boostrap.sh
-cd ..
+git clone <dotfiles git repo> && cd dotfiles && ./boostrap.sh
+cd ~
 ./.osx
 ./.brew
 ```
