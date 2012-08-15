@@ -22,7 +22,3 @@ source ~/.bash_profile
 #git log master..upstream/master
 #git diff master upstream/master
 #git rebase upstream/master 
-
-
-## TODO : To automatize :
-#Sort Folder Before File
