@@ -329,9 +329,7 @@ defaults write com.apple.Terminal "Startup Window Settings" -string "Mathias"
 # Miscellaneous non-brew installtion                                          #
 ###############################################################################
 
-if [ ! -d "~/bin" ]; then
-	mkdir ~/bin
-fi
+mkdir ~/bin
 
 # SublimeText 2 bash command
 if [ -d "/Applications/Sublime Text 2.app/" ]; then
