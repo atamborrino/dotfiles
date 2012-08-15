@@ -4,6 +4,14 @@ if [ -d "/usr/local/Cellar/coreutils/8.17/libexec/gnubin" ]; then
 	export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
 fi
 
+# Export Sublime Text 2 as default editor
+if [ -d "/Applications/Sublime Text 2.app/" ]; then
+	export EDITOR="subl"
+	# Note : ln -s to ~/bin/subl is in .osx
+else
+	export EDITOR="vim"
+fi
+
 # Git credentials
 #GIT_AUTHOR_NAME="Alexandre Tamborrino"
 #GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
