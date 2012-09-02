@@ -1,5 +1,5 @@
 # PATH additions
-export PATH="~/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/share/python:~/bin:$PATH"
 if [ -d "/usr/local/Cellar/coreutils/8.17/libexec/gnubin" ]; then
 	export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
 fi

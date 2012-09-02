@@ -22,6 +22,7 @@ brew install homebrew/dupes/grep
 # Install everything else
 brew install git 
 brew install bash-completion
+brew install python
 
 # Brew own completion script
 ln -s "/usr/local/Library/Contributions/brew_bash_completion.sh" "/usr/local/etc/bash_completion.d"
