@@ -1,6 +1,6 @@
 # My dotfiles
 
-Forked from Mathias Bynens _legendary_ dotfiles for OSX.
+Forked from Mathias Bynens dotfiles for OSX.
 
 Install brew, git via brew and Sublime Text 2 before.
 ```bash
