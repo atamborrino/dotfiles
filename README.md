@@ -2,7 +2,7 @@
 
 Forked from Mathias Bynens dotfiles for OSX.
 
-Install brew, git via brew and Sublime Text 2 before.
+Install before: Xcode / Command line tools, brew, git via brew and Sublime Text before.
 ```bash
 cd ~
 git clone <dotfiles git repo> && cd dotfiles && ./boostrap.sh

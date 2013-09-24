@@ -1,13 +1,14 @@
 # PATH additions
-export PATH="/usr/local/bin:/usr/local/share/python:~/bin:$PATH"
 if [ -d "/usr/local/Cellar/coreutils/8.17/libexec/gnubin" ]; then
 	export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
 fi
 
-# Export Sublime Text 2 as default editor
-#if [ -d "/Applications/Sublime Text 2.app/" ]; then
-#	export EDITOR="~/bin/subl"
-#else
-#	export EDITOR="vim"
-#fi
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/share/python:~/bin:$PATH"
+
+# Export Sublime Text as default editor
+if [ -d "/Applications/Sublime Text.app/" ]; then
+	export EDITOR="~/bin/subl"
+else
+	export EDITOR="vim"
+fi
 
