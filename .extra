@@ -6,9 +6,9 @@ fi
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/share/python:~/bin:$PATH"
 
 # Export Sublime Text as default editor
-if [ -d "/Applications/Sublime Text.app/" ]; then
-	export EDITOR="~/bin/subl"
-else
-	export EDITOR="vim"
-fi
+#if [ -d "/Applications/Sublime Text.app/" ]; then
+#	export EDITOR="~/bin/subl"
+#else
+#	export EDITOR="vim"
+#fi
 
