@@ -9,3 +9,5 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+export JAVA_OPTS="-Xms1536m -Xmx1536m -XX:MaxPermSize=384m -XX:ReservedCodeCacheSize=192m -Xss1M -XX:+CMSClassUnloadingEnabled -XX:+UseParallelGC -XX:PermSize=256M -Dfile.encoding=UTF8"
