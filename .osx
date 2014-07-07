@@ -329,6 +329,8 @@ defaults write com.apple.Terminal "Startup Window Settings" -string "Mathias"
 defaults write com.apple.terminal FocusFollowsMouse -bool true
 #defaults write org.x.X11 wm_ffm -bool true
 
+# Spectacle
+defaults delete com.divisiblebyzero.Spectacle
 
 
 ###############################################################################
