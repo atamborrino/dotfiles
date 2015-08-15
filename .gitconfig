@@ -29,8 +29,3 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-
-[user]
-	name = Alexandre Tamborrino
-	email = tamborrino.alexandre@gmail.com
-
