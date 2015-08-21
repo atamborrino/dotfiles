@@ -1,3 +1,10 @@
+# PATH additions
+if [ -d "/usr/local/Cellar/coreutils/8.17/libexec/gnubin" ]; then
+	export PATH="/usr/local/Cellar/coreutils/8.17/libexec/gnubin:$PATH"
+fi
+
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/share/python:~/bin:$PATH"
+
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 # Highlight section titles in manual pages
